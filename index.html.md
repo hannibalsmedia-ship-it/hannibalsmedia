@@ -1,0 +1,120 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Hannibal Media | We Tell Stories That People Remember</title>  
+<style>  
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif}  
+  body{background:#111;color:#fff}  
+  header{background:rgba(0,0,0,0.85);color:#fff;padding:18px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}  
+  header b{color:#FF7F2A;font-size:22px}  
+  header b span{color:#E31E24}  
+  nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:14px}  
+  
+  /* YOUR PICTURE AS BACKGROUND - KEPT */  
+  .hero{  
+    min-height:90vh;  
+    background-image: url('logo.jpg');  
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    position:relative;  
+    display:flex;align-items:center;  
+    padding:80px 5%;  
+  }  
+  .hero::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.65)}  
+  .hero-content{position:relative;z-index:2;max-width:700px}  
+  .hero h1{font-size:54px;line-height:1.05}  
+  .hero h1 span{color:#FF7F2A}  
+  .hero p{margin:20px 0;font-size:18px;color:#eee}  
+  .btn{background:#E31E24;color:#fff;padding:14px 28px;border-radius:30px;display:inline-block;text-decoration:none;font-weight:bold}  
+  .btn-green{background:#25D366;color:#fff;padding:14px 28px;border-radius:30px;display:inline-block;text-decoration:none;font-weight:bold;margin-left:10px}  
+  
+  /* SERVICES - YOUR PICTURE ALSO AS FAINT BACKGROUND */  
+  .section{  
+    padding:60px 5%;  
+    background-image: url('logo.jpg');  
+    background-size: 600px;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    position:relative;  
+    color:#111;  
+  }  
+  .section::before{content:"";position:absolute;inset:0;background:rgba(255,247,240,0.92)}  
+  .section-inner{position:relative;z-index:2}  
+  .section h2{font-size:38px;margin:10px 0 30px}  
+  .label{color:#E31E24;font-weight:bold;letter-spacing:2px;font-size:13px}  
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}  
+  .card{background:#fff;border:1px solid #FFD9BE;border-radius:16px;padding:24px}  
+  .card h3{margin-bottom:10px}  
+  .card p{color:#666;line-height:1.5;font-size:15px}  
+  
+  .work{background:#111;color:#fff;padding:60px 5%}  
+  .work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:25px}  
+  .work-item{background:#FF7F2A;border-radius:16px;height:200px;display:flex;flex-direction:column;justify-content:flex-end;padding:20px;font-weight:bold;text-decoration:none;color:#fff}  
+  .work-item small{font-weight:normal;opacity:0.9;margin-top:5px}  
+  .cta{background:#E31E24;color:#fff;padding:60px 5%;text-align:center}  
+  .cta h2{font-size:34px;margin-bottom:15px}  
+  .cta a{background:#fff;color:#111;padding:14px 30px;border-radius:30px;display:inline-block;text-decoration:none;font-weight:bold;margin-top:15px}  
+  footer{background:#000;color:#aaa;text-align:center;padding:20px;font-size:13px}  
+  @media(max-width:800px){.hero h1{font-size:36px}.grid,.work-grid{grid-template-columns:1fr 1fr}}  
+  @media(max-width:500px){.grid,.work-grid{grid-template-columns:1fr}nav{display:none}.btn-green{margin-left:0;margin-top:10px}}  
+</style>  
+</head>  
+<body>  
+  
+<header>  
+  <b>HANNIBAL <span>MEDIA</span></b>  
+  <nav><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav>  
+</header>  
+  
+<div class="hero">  
+  <div class="hero-content">  
+    <h1>WE TELL STORIES<br>THAT PEOPLE <span>REMEMBER.</span></h1>  
+    <p>Photography • Videography • Branding • Social Media</p>  
+    <a class="btn" href="https://wa.me/2349077359013?text=Hello%20Hannibal%20Media%2C%20I%20want%20to%20book%20a%20shoot">Book A Shoot →</a>  
+    <a class="btn-green" href="https://wa.me/2349077359013">WhatsApp Us</a>  
+  </div>  
+</div>  
+  
+<div class="section" id="services">  
+  <div class="section-inner">  
+    <div class="label">WHAT WE DO</div>  
+    <h2>Services</h2>  
+    <div class="grid">  
+      <div class="card"><h3>📸 Photography</h3><p>Portraits, events, products and brand shoots. Sharp, clean and premium.</p></div>  
+      <div class="card"><h3>🎬 Videography</h3><p>Music videos, ads, documentaries and reels that people actually watch.</p></div>  
+      <div class="card"><h3>🎨 Branding</h3><p>Logos, flyers and full brand identity that makes you stand out.</p></div>  
+      <div class="card"><h3>📱 Social Media</h3><p>Content, management and growth for TikTok, Instagram and Facebook.</p></div>  
+    </div>  
+  </div>  
+</div>  
+  
+<div class="work" id="portfolio">  
+  <div class="label" style="color:#FF7F2A">PORTFOLIO - TIKTOK</div>  
+  <h2 style="font-size:38px">Watch Our Work On TikTok</h2>  
+  <p style="color:#bbb">Our best videos live on TikTok. Click any video to watch.</p>  
+  <div class="work-grid">  
+    <a class="work-item" href="https://www.tiktok.com/@" target="_blank">▶ Watch Video 1<small>Tap to open on TikTok</small></a>  
+    <a class="work-item" href="https://www.tiktok.com/@" target="_blank">▶ Watch Video 2<small>Tap to open on TikTok</small></a>  
+    <a class="work-item" href="https://www.tiktok.com/@" target="_blank">▶ Watch Video 3<small>Tap to open on TikTok</small></a>  
+  </div>  
+  <div style="text-align:center;margin-top:30px">  
+    <a href="https://www.tiktok.com/@" target="_blank" style="background:#fff;color:#111;padding:14px 30px;border-radius:30px;display:inline-block;text-decoration:none;font-weight:bold">Follow Us On TikTok →</a>  
+  </div>  
+</div>  
+  
+<div class="cta" id="contact">  
+  <h2>Ready to create something great?</h2>  
+  <p>Based in Kaduna, Nigeria • Available for bookings nationwide</p>  
+  <p style="margin-top:15px">WhatsApp: 09077359013</p>  
+  <a href="https://wa.me/2349077359013?text=Hello%20Hannibal%20Media%2C%20I%20want%20to%20book%20a%20shoot">Chat on WhatsApp</a>  
+  <p style="margin-top:20px">TikTok: @your-username • Instagram: @hannibalmedia</p>  
+</div>  
+  
+<footer>© 2026 Hannibal Media. All Rights Reserved.</footer>  
+  
+</body>  
+</html>  
